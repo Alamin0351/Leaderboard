@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    
+}
+.section-title{
+    font-size:24px;
+    color: blue;
+    margin-top: 3px;
+    font-size: 1.7em;
+
+}
+.alamin {
+    margin-left: 16px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+    
+}
+.top-players {
+    margin-bottom: 30px;
+}
+
+.thumbnail img {
+    width: 177px;
+    height: 117px;
+
+
+}
+hr{
+    border: 1px solid tomato;
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    display: flex;
+    
+}
+.author span{
+    color: blue;
+    font-size: 16px;
+}
+.info {
+    margin-left: 16px;
+}
+.blog-title {
+    font-size: 20px;
+}
+.Tanjina {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.container {
+    border-radius:
+        10px;
+        margin-top:21px;
+    }
+
+    .course-banner img{
+        width: 224px;
+        height: 104px;
+
+    }
+    .fa-star.filled {
+color: tomato;
+
+    }
+
+    .course-rating{
+        display: flex;
+    }
+    .courses {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-column-gap: 70px;
+
+
+    }
+
+@media only screen and (maxwidth:680px){
+   .player{ grid-template-columns: repeat(1, 1fr);}
+}
